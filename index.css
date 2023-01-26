@@ -1,5 +1,24 @@
 :root {
-    --darkred: darkred;
+    /* Color Section*/
+    --limeGreen: #25c389;
+    --goldYellow: #ffb901;
+    --lightredOrange: #de6262;
+    --blue: #1691bd;
+    --navyBlue: #166ba2;
+    --MetrolicsHiglightColor: #1eafde;
+    --purple: #862d9b;
+    --babyBlue: #19b2de;
+    --googleIcon: #e46145;
+    --hoverEffectBlue: #28aed5;
+    --instagramColor: #f6679c;
+
+    /* Fonts */
+
+    --OpenSans: font-family: 'Open Sans', sans-serif;
+    --Ubuntu: font-family: 'Ubuntu', sans-serif;
   
-    
 }
+
+
+
+

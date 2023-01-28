@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+}
+
+
+
 :root {
     /* Color Section*/
     --limeGreen: #25c389;
@@ -11,14 +17,34 @@
     --googleIcon: #e46145;
     --hoverEffectBlue: #28aed5;
     --instagramColor: #f6679c;
-
-    /* Fonts */
-
-    --OpenSans: font-family: 'Open Sans', sans-serif;
-    --Ubuntu: font-family: 'Ubuntu', sans-serif;
+    --backgroundImageColor: #ebebeb;
+    --footerColor: #16242f;
+    --hyperLink-Color: #1bade6;
   
 }
 
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 
+span {
+    color: var(--MetrolicsHiglightColor);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.about-website {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
 
+.main-image {
+    width: 1460px;
+    height: 521px;
+}
+
+.banner {
+    margin-top: -388px;
+}
 

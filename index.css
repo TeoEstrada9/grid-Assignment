@@ -1,3 +1,7 @@
+html, body {
+    margin: 0;
+}
+
 :root {
     /* Color Section*/
     --limeGreen: #25c389;
@@ -11,14 +15,197 @@
     --googleIcon: #e46145;
     --hoverEffectBlue: #28aed5;
     --instagramColor: #f6679c;
+    --backgroundImageColor: #ebebeb;
+    --footerColor: #16242f;
+    --hyperLink-Color: #1bade6;
+    --font-Color: #3c3c3c;
+    --fontColor-light-grey: #9b9b9b; 
+}
 
-    /* Fonts */
+/*Logo*/
+.logo-image {
+    width: 200px;
+    height: 50px;
+    display: flex;
+   
+}
+/* Nav bar section */
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
 
-    --OpenSans: font-family: 'Open Sans', sans-serif;
-    --Ubuntu: font-family: 'Ubuntu', sans-serif;
-  
+/*Nav bar section Home section -- Green color */
+
+.home-section {
+    width: 9.5em;
+    height: 8.5em;
+    background-color: var(--limeGreen);
+}
+
+/* Nav bar section Pages section -- yellow color */ 
+.pages-section {
+    width: 9.5em;
+    height: 8.5em;
+    background-color: var(--goldYellow);
+}
+
+/* Nav bar section Blog -- redOrange */
+.blog-section {
+    width: 9.5em;
+    height: 8.5em;
+    background-color: var(--lightredOrange);
+}
+/* Nav bar section portfolio -- blue */
+.portfolio-section {
+    width: 9.5em;
+    height: 8.5em;
+    background-color: var(--blue);
+}
+
+/*Nav Bar section Home - navy blue*/
+.home-section-blue {
+    width: 9.7em;
+    height: 8.5em;
+    background-color: var(--navyBlue) ;
+}
+
+
+.background-icon-home {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: regular;
+    margin-top: 2.5em;
+    padding-left: 1em;
+   
+
+}
+
+.background-shape-pages {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: regular;
+    margin-top: 2.5em;
+    padding-left: 1em;
+}
+
+.background-shape-blog {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: regular;
+    margin-top: 2.5em;
+    padding-left: 1em;
+
+}
+
+.background-shape-portfolio {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: regular;
+    margin-top: 2.5em;
+    padding-left: 1em;
+}
+
+.background-shape-home-blue {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: regular;
+    margin-top: 2.5em;
+    padding-left: 1em;
 }
 
 
 
 
+
+
+/* main image */
+.main-image {
+    width: 1460px;
+    height: 521px;
+}
+
+
+
+
+
+/* hgihlighted word  */
+span {
+    color: var(--MetrolicsHiglightColor);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* welcome message*/
+.about-website {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+
+
+
+.banner {
+    margin-top: -388px;
+    margin-left: 10em;
+}
+
+
+
+/* Image banner text fonts */
+.metro-style-text {
+    font-family:  'Ubuntu', sans-serif;
+    font-weight: regular;
+    color: var(--font-Color)
+}
+
+.retina-ready-text {
+    font-family:  'Ubuntu', sans-serif;
+    font-weight: regular;
+    color: var(--font-Color);
+}
+
+.responsive-design-text {
+    font-family:  'Ubuntu', sans-serif;
+    font-weight: regular;
+    color: var(--font-Color);
+    
+}
+
+
+/*Welcome Message */ 
+.about-website {
+   text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+    color: var(--font-Color);
+    padding-top: 5px;
+}
+.about-website-bottomhalf {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5em;
+    font-weight: lighter;
+    color: var(--font-Color);
+}
+
+/*Things we do */ 
+
+.what-we-do-text {
+    margin-top: 5.5em;
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--font-Color);
+    text-align: center;
+}
+
+.ask-what-we-do-text {
+    font-size: 0.7em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: var(--font-Color);
+    text-align: center;
+}

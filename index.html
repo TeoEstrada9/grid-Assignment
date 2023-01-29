@@ -12,45 +12,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Ubuntu:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet"> 
     <!--Font Awesome Icon Links-->
     <script src="https://kit.fontawesome.com/b931896a40.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Website Mockup</title>
 </head>
 <body>
 
+    <!--Mateo's Section-->
+    <!--Top Half-->
+
     <!--Logo-->
     <div class="logo">
-        <img class="logo-image" src="" alt="">
+        <img class="logo-image" src="Images/Logo.png" alt="">
     </div>
 
     <!--Nav-Bar-->
-    <nav class="nav-bar1">
-
-        <section class="home-section-green">
-           <a class="background-icon-home" href="#"></a>
-            <img class="house-icon" src="" alt="">
+    <nav class="nav-bar">
+        <section href="#" class="home-section">
+            <div class="background-shape-home">
+                <i class="fa fa-home" style="font-size: 30px; color: white;  display: flex; justify-content: center; margin-top: 1em;" ></i> 
+            </div>
+           <div class="background-icon-home">Home</div>
+          
         </section>
 
         <section class="pages-section">
-            <a class="background-shape-pages" href="#"></a>
-            <img class="flow-icon" src="" alt="">
-            <img class="right-arrow-pages-section" src="" alt="">
+            <i class="fa fa-sitemap"  style="color: white; font-size: 30px; display: flex; justify-content: center; margin-top: 1em; "></i>
+            <div class="background-shape-pages">Pages</div>
+            <i class="fa-solid fa-angle-right" style="color: white; margin-left: 7.5em;"></i>
+            
         </section>
 
         <section class="blog-section">
-            <a class="background-shape-blog" href="#">Blog</a>
-            <img class="megaphone-icon" src="megaphone-icon" alt="">
-            <img class="right-arrow-section" src="right-arrow-blog-section" alt="">
-
+            <i class="fa fa-bullhorn" style="color: white; font-size: 30px; display: flex; justify-content: center; margin-top: 1em; "></i>
+            <div class="background-shape-blog">Blog</div>
+            <i class="fa-solid fa-angle-right" style="color: white; margin-left: 7.5em;"></i>
         </section>
 
         <section class="portfolio-section">
-            <a class="background-shape-porfolio" href="#"></a>
-            <img class="briefcase-icon" src="" alt="">
-            <img class="right-arrow-porfolio" src="righ-arrow-profolio-section" alt="">
+            <div class="icon-background--portfolio"></div>
+            <i class="fa-solid fa-briefcase" style="font-size: 30px; color: white; display: flex; justify-content: center; margin-top: 1em;"></i>
+            <div class="background-shape-portfolio">Portfolio</div>
+            <i class="fa-solid fa-angle-right" style="color:white; margin-left: 7.5em;"></i>
         </section>
 
         <section class="home-section-blue">
-            <div class="background-shape-home-blue"></div>
-            <img class="email-icon" src="" alt="">
+            <div class="icon-background--home--blue"></div>
+            <i class="fa-sharp fa-solid fa-envelope" style="font-size: 30px; color: white; display: flex; justify-content: center; margin-top: 1em;"></i>
+            <div class="background-shape-home-blue">Home</div>
+          
         </section>
     </nav>
 
@@ -62,29 +71,36 @@
    <div class="background-image-color">
 
    </div>
-    <!--Image Container-->
+   
+   <!--Image Container-->
     <div class="main-image">
+        <img class="main-image" src="Images/placeholder.svg" alt="">
         <div class="arrows-icons">
-            <img class="left-arrow" src="" alt="">
-            <img class="right-arrow" src="" alt="">
+            <i class="fa-solid fa-circle-chevron-left" style="color: black"></i>
+            <i class="fa-solid fa-circle-chevron-right"></i>
+            
         </div>
-        <div class="metro-style-banner">
-            <h3 class="metro-style-text">Metro Style</h3>
+        <div class="banner">
+            <div class="metro-banner">
+                <h3 class="metro-style-text">Metro Style</h3>
+            </div>
+            <div class="retina-banner">
+                <h3 class="retina-ready-text">Retina Ready</h3>
+            </div>
+            <div class="responsive-banner">
+                <h3 class="responsive-design-text">Responsive Design</h3>
+            </div>
+
         </div>
-        <div class="retina-ready-banner">
-            <h3 class="retina-ready-text">Retina Ready</h3>
-        </div>
-        <div class="responsive-desing-banner">
-            <h3 class="responsive-design-text">Responsive Design</h3>
-        </div>
+       
 
 
     </div>
 
     <!--Welcome Message-->
     <div class="welcome-message">
-        <h4 class="about-website">Hey guys! This is the<span>Metrolics</span>theme.<br> 
-        It sports a responsive layout with a mobile layout </h4>
+        <h4 class="about-website">Hey guys! This is the <span> Metrolics </span> theme.</h4>
+        <h4 class="about-website-bottomhalf">It sports a responsive layout with a mobile layout </h4>
     </div>
 
     <!--Icon Section-->
@@ -93,43 +109,79 @@
         <p class="ask-what-we-do-text">Ask us what we can do for you</p>
         <div class="what-we-do-icon">
             <div class="websolutions-section">
-                <img class="light-blub-icon" src="" alt="">
+                <i class="fa-regular fa-lightbulb" style="color: #ffb901; font-size: 50px; border: 1px solid #ffb901; padding: 17px 17px;"></i>
                 <h5 class="web-solutions-text">Web Solutions</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptate eveniet nihil ipsa aut rerum asperiores!
+                    We are a fairly small, flexible design studio <br> 
+                    that designs for print and web. <br> 
+                    We work flexibly with clients to fulfil their design <br>
+                     needs. Whether you need to create a brand <br>
+                      from scratch, including marketing materials 
+                    
                 </p>
             </div>
             <div class="photography-section">
-                <img class="photography-icon" src="" alt="">
+                <i class="fa-regular fa-image" style="color: #25c389; font-size: 50px; border: 1px solid #25c389; padding: 15px 15px;"></i>
                 <h5 class="photography-text">Photography</h5>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptate eveniet nihil ipsa aut rerum asperiores!
+                    We are a fairly small, flexible design studio <br> 
+                    that designs for print and web. <br> 
+                    We work flexibly with clients to fulfil their design <br>
+                     needs. Whether you need to create a brand <br>
+                      from scratch, including marketing materials 
+                    
                 </p>
             </div>
             <div class="webdevelopment-section">
-                <img class="web-dev-icon" src="" alt="">
+                <i class="fa fa-cogs" style="color: #de6262; font-size: 30px; border: 1px solid #de6262; padding: 15px 15px;"></i>
                 <h5 class="web-dev-text">Web Development</h5>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, natus nemo non a iste eos.</p>
+                <p>
+                    We are a fairly small, flexible design studio <br> 
+                    that designs for print and web. <br> 
+                    We work flexibly with clients to fulfil their design <br>
+                     needs. Whether you need to create a brand <br>
+                      from scratch, including marketing materials 
+                    
+
+                </p>
             </div>
             <div class="webdesign-section">
-                <img class="pencil-icon" src="" alt="">
+                <i class="fa-solid fa-pencil" style="color: #1691bd; font-size: 30px; border: 1px solid #1691bd; padding: 15px 15px;"></i>
                 <h5 class="web-design-text">Web Design</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi doloremque earum illum, libero voluptates eos.</p>
+                <p>
+                    We are a fairly small, flexible design studio <br> 
+                    that designs for print and web. <br> 
+                    We work flexibly with clients to fulfil their design <br>
+                     needs. Whether you need to create a brand <br>
+                      from scratch, including marketing materials 
+                    
+                </p>
             </div>
 
         </div>
     </div>
 
-    <!--photo Grid-->
+    <!--photo Display -->
 
-    <div class="photo-grid">
+    <div class="photo-carousel">
         <h3 class="whats-up-lately-text">What's up Lately?</h3>
         <p class="latest-work-text">Read up on our latest work</p>
+        <div class="whats-up-lately-image1">
+            <img src="" alt="">
+            <div class="imagetext1">
+                <h4>Sample Image Post</h4>
+                <p>Photography</p>
+                <img class="cameraicon1" src="" alt="">
+            </div>
+
+        </div>
+        <div class="whats-up-lately-image2">
+            <img src="" alt="">
+
+        </div>
+        
         <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+       <img class="divider-image" src="Images/dividerColor.png" alt="">
        
         
     </div>
@@ -137,6 +189,8 @@
    
    
      <!----------------------Bottom Half-------------------------------->
+
+     <!--Khalil's Section-->
    
     <!--Latest Projects section-->
 
@@ -187,57 +241,14 @@
 
     <!--sponsors and Accordian Menu-->
 
-    <div class="accordian-menu">
-        <div class="blue-banner">
-            <h6 class="sample-menu">Sample Accoridan Menu</h6>
-            <img class="plus-icon" src="" alt="">
-        </div>
+    <img src="Images/Accoridan.png" alt="">
 
-        <div class="web-solution-banner">
-            <h5 class="web-solution2">Web Solution</h5>
-            <img src="light--bulb" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                Rerum molestias unde quia, ut doloribus nobis!</p>
-        </div>
-
-        <div class="Menu2">
-            <h4 class="sample-accordian-menuII">Sample Accordion Menu 2</h4>
-            <img class="mini-plus" src="" alt="">
-        </div>
-
-        <div class="Menu3">
-            <h4 class="sample-accoridan-menu3">Sample Accordion Menu 3</h4>
-            <img class="mini-plus2" src="" alt="">
-        </div>
-
-    </div>
+   
 
    
    
     <!--Tab Menu Layout-->
-    <div class="tabmenu-section">
-       <div class="icon1">
-            <img class="flask-icon" src="" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, id?</p>
-       </div>
-
-        <div class="icon2">
-            <img class="leaf-icon" src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, fugit.</p>
-
-        </div>
-
-        <div class="icon3">
-            <img class="laptop-icon" src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, molestias!</p>
-
-        </div>
-
-        <div class="icon4">
-            <img class="person-icon" src="" alt="">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quibusdam.</p>
-
-        </div>
+    <img src="Images/tab section.png" alt="">
 
         
         
@@ -276,55 +287,78 @@
             <h4 class="creator-name">Peewee Herman</h4>
             <p>Peewee has over 10 years experiece in the industry. He is our Creative Director, digital desinger, web designer and front-end developer. He is also pretty good with a sketch- <br> 
                 book. Before starting the company Peewee worked as a desinger and studio manager for a design house who boasted a number of big name clients </p>
-            <span></span><hr>
+          <img src="Images/dividerColor.png" alt="">
         </section>
 
         <div class="about-us">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi iusto libero molestias vel iure perferendis doloribus vitae! <br>
-                 Architecto ipsa neque consectetur animi, pariatur earum, laborum incidunt recusandae minus fugiat labore <br> 
-                consequuntur, odit explicabo corporis similique expedita natus suscipit provident eos?</p>
+            <h3>About Us</h3>
+            <img class="About--underline-green" src="" alt="">
+            <p>
+                Minions ipsum potatoooo potatoooo uuuhhh. <br>
+                 Chasy poulet tikka masala jiji wiiiii hahaha po <br>
+                  kass tulaliloo potatoooo. Bee do bee do bee do <br>
+                   chasy ti aamoo! Po kass daa bee do  bee do bee <br>
+                    do po kass wiiiii butt chasy. Pepete uuuhhh <br>
+                     hahaha gelatooo belloo! Bananaaaa aaaaaah butt </p>
                 
                 <div class="social-icons">
-                    <img class="facebook-icon" src="" alt="">
-                    <img class="google+-icon" src="" alt="">
-                    <img class="twitter-icon" src="" alt="">
-                    <img class="Instagram-icon" src="" alt="">
-                    <img class="signal-icon" src="" alt="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-solid fa-wifi"></i>
                 </div>
 
         </div>
 
         <div class="flickr-photos">
+            <h3>Flickr Photos</h3>
+            <img class="Flickr--underline-yellow" src="" alt="">
             <div class="footer-image-grid">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
+                <div class="rows-images">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+
+                </div>
+               <div class="col-images">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+               </div>
+               
             </div>
         </div>
 
         <section class="recent-tweets-ssection">
-            <h4 class="recent-tweets">Recent Tweets</h4>
+            <h3 class="recent-tweets">Recent Tweets</h3>
            <div class="first-tweet">
                 <img class="first-tweet" src="" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sit.</p>
+                <i class="fa-brands fa-twitter"></i>
+                <a href="#">@Minions</a>
+                <p>ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sit.</p>
            </div>
             <div class="second-tweets">
-                <img class="second-tweet" src="" alt="">
+                <i class="fa-brands fa-twitter"></i>
+                <a href="#">@Minions</a>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, exercitationem!</p>
             </div>
         </section>
 
 
         <div class="newsletter-section">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Accusantium nisi rerum explicabo quibusdam alias necessitatibus quo aliquid facilis in! 
-                Iste voluptatibus beatae corrupti vitae eius tempora iure perferendis magnam sunt tenetur provident illum iusto sed praesentium doloremque error, 
-                voluptas, sint mollitia veritatis. Voluptate tempora sint voluptatem. Blanditiis atque in hic!</p>
+            <h3>Newsletter</h3>
+            <img class="newsletter--underline-blue" src="" alt="">
+            <p>
+                Minions ipsum potatoooo potatoooo uuuhhh. <br>
+                Chasy poulet tikka masala jiji wiiiii hahaha po <br>
+                 kass tulaliloo potatoooo. Bee do bee do bee do <br>
+                  chasy ti aamoo! Po kass daa bee do  bee do bee <br>
+                   do po kass wiiiii butt chasy. Pepete uuuhhh
+            </p>
                 <input placeholder="Enter your Email..." autocapitalize="off" autocomplete="off" autocorrect="off" type="text">
-                <img class="airplane-icon" src="" alt="">
+                <i class="fa-solid fa-paper-plane"></i>
+
         </div>
 
         <div class="footer-decoration">

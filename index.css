@@ -209,6 +209,7 @@ span {
     font-weight: lighter;
     color: var(--font-Color);
     text-align: center;
+    margin-top: -24px;
 }
 
 .whats-up-lately-image1 {
@@ -224,8 +225,56 @@ span {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     margin-left: 2em;
+    gap: 3.3em;
+    margin-top: 3.3em;
 
 }
+
+.web-solutions-text, .photography-text, .web-dev-text, .web-design-text {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.web-soultions-paragraph {
+    text-align: center;
+    text-align: justify;
+    color: var(--font-Color);
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: medium;
+}
+
+.photography-paragraph {
+    text-align: center;
+    text-align: justify;
+    color: var(--font-Color);
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: medium;
+}
+
+.webdev-paragraph {
+    text-align: center;
+    text-align: justify;
+    color: var(--font-Color);
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: medium;
+
+}
+
+.webdesign-paragraph {
+    text-align: center;
+    text-align: justify;
+    color: var(--font-Color);
+    font-size: 0.9em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: medium;
+    
+
+}
+
+ 
 
 /*Image Carousel */ 
 

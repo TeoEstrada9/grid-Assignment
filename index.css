@@ -210,3 +210,59 @@ span {
     color: var(--font-Color);
     text-align: center;
 }
+
+.whats-up-lately-image1 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: -5px;
+    justify-content: center;
+    margin-left: 5em;
+   
+}
+
+.image-carousel1 {
+    width: 368px;
+    height: 276px;
+  
+   
+    
+    
+}
+.image-carousel2 {
+    width: 368px;
+    height: 276px;
+}
+.image-carousel3 {
+    width: 368px;
+    height: 276px;
+}
+
+
+.whats-up-lately-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    color: var(--font-Color);
+    text-align: center;
+}
+
+.latest-work-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .5em;
+    color: var(--font-Color);
+    text-align: center;
+    margin-top: -10;
+
+}
+
+.sample-post-message {
+    display: flex;
+    margin-top: -105px;
+}
+
+.divider-image {
+   width: 89%;
+   margin-left: 4em;
+   margin-top: 2em;
+}
+
+

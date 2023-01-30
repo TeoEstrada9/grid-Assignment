@@ -26,14 +26,15 @@ html, body {
 .logo-image {
     width: 200px;
     height: 50px;
-    display: flex;
-   
+
 }
+
 /* Nav bar section */
 .nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: -51px;
     
     
 }
@@ -190,10 +191,14 @@ span {
     font-size: 2.5em;
     font-weight: lighter;
     color: var(--font-Color);
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 /*Things we do */ 
+
+.Things-we-do-title {
+    margin-top: -92px;
+}
 
 .what-we-do-text {
     margin-top: 5.5em;
@@ -309,6 +314,8 @@ span {
     color: var(--font-Color);
     text-align: center;
     margin-top: -10;
+    margin-bottom: 3em;
+    margin-top: -17px;
 
 }
 
@@ -322,6 +329,10 @@ span {
    margin-left: 4em;
    margin-top: 2em;
 }
+
+
+
+
 
 
 

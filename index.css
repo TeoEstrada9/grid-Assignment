@@ -220,6 +220,13 @@ span {
    
 }
 
+.what-we-do-icon {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 2em;
+
+}
+
 /*Image Carousel */ 
 
 .image-carousel1 {
@@ -266,5 +273,8 @@ span {
    margin-left: 4em;
    margin-top: 2em;
 }
+
+
+
 
 

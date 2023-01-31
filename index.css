@@ -11,7 +11,7 @@ html, body {
     --navyBlue: #166ba2;
     --MetrolicsHiglightColor: #1eafde;
     --purple: #862d9b;
-    --babyBlue: #19b2de;
+    --photo-footer-blue: #19b2de;
     --googleIcon: #e46145;
     --hoverEffectBlue: #28aed5;
     --instagramColor: #f6679c;
@@ -120,13 +120,21 @@ html, body {
 
 
 
+/*Image background color */ 
 
+.image-background {
+    width: 1500px;
+    height: 521px;
+    background-color: #ebebeb;
+}
 
 
 /* main image */
 .main-image {
-    width: 1460px;
-    height: 521px;
+    width: 1000px;
+    height: 520px;
+    margin: auto;
+   
 }
 
 
@@ -217,14 +225,16 @@ span {
     margin-top: -24px;
 }
 
-.whats-up-lately-image1 {
+.whats-up-lately-image {
     display: grid;
     grid-template-columns: repeat(3, 2fr);
-    gap: -5px;
     justify-content: center;
     margin-left: 5em;
+    row-gap: 2px;
    
 }
+
+
 
 .what-we-do-icon {
     display: grid;
@@ -322,6 +332,11 @@ span {
 .sample-post-message {
     display: flex;
     margin-top: -105px;
+    color: white;
+}
+
+.topic-message {
+    color: white;
 }
 
 .divider-image {
@@ -329,6 +344,10 @@ span {
    margin-left: 4em;
    margin-top: 2em;
 }
+
+
+
+
 
 
 

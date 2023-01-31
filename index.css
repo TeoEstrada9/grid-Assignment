@@ -132,9 +132,7 @@ html, body {
 /* main image */
 .main-image {
     width: 1000px;
-    height: 520px;
-    margin: auto;
-   
+    height: 520px;  
 }
 
 
@@ -345,6 +343,45 @@ span {
    margin-top: 2em;
 }
 
+.metro-banner {
+    background-color: #eff5fc; 
+    width: 190px;
+    height: 50px;
+    border-left: 7px solid #166ba2;
+}
+.metro-style-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+.retina-banner {
+    background-color: #eff5fc; 
+    width: 210px;
+    height: 50px;
+    border-left: 7px solid #df6260;
+    margin-top: -20px;
+   
+    
+}
+.retina-ready-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+
+.responsive-banner {
+    background-color: #eff5fc; 
+    width: 270px;
+    height: 50px;
+    border-left: 7px solid #fcbb00;
+    margin-top: -20px; 
+}
+
+.responsive-design-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
 
 
 

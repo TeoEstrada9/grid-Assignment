@@ -26,7 +26,7 @@ html, body {
 .logo-image {
     width: 200px;
     height: 50px;
-    margin-left: 22em;
+    margin-left: 15em;
 
 }
 
@@ -36,7 +36,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     margin-top: -51px;
-    margin-left: 30em;
+    margin-left: 20em;
     
     
 }
@@ -130,6 +130,10 @@ html, body {
     background-color: #ebebeb;
     margin: auto;
     z-index: -1;
+    display: flex;
+    justify-content: center;
+
+   
 }
 
 
@@ -137,8 +141,7 @@ html, body {
 .main-image {
     width: 1280px;
     height: 550px;  
-    margin-left: 4em;
-    
+    margin-right: 1.5em;  
 }
 
 
@@ -162,7 +165,7 @@ span {
 
 .banner {
     margin-top: -388px;
-    margin-left: 10em;
+    margin-left: 15em;
 }
 
 

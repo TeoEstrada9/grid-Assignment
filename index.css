@@ -26,6 +26,7 @@ html, body {
 .logo-image {
     width: 200px;
     height: 50px;
+    margin-left: 22em;
 
 }
 
@@ -35,6 +36,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     margin-top: -51px;
+    margin-left: 30em;
     
     
 }
@@ -124,15 +126,19 @@ html, body {
 
 .image-background {
     width: 1500px;
-    height: 521px;
+    height: 550px;
     background-color: #ebebeb;
+    margin: auto;
+    z-index: -1;
 }
 
 
 /* main image */
 .main-image {
-    width: 1000px;
-    height: 520px;  
+    width: 1280px;
+    height: 550px;  
+    margin-left: 4em;
+    
 }
 
 
@@ -343,6 +349,11 @@ span {
    margin-top: 2em;
 }
 
+.banner {
+    z-index: 2;
+    position: relative;
+}
+
 .metro-banner {
     background-color: #eff5fc; 
     width: 190px;
@@ -381,6 +392,14 @@ span {
     padding-top: 12px;
     padding-left: 15px;
     font-size: 1.3em;
+}
+
+.image--footer {
+    background-color: #19b2de;
+    width: 50px;
+    height: 20px;
+    z-index: 2;
+    position: relative;
 }
 
 

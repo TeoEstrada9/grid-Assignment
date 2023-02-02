@@ -413,6 +413,36 @@ span {
 
 
 
+/* Khalil's Css */
 
+.latest-projects {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
 
+.things-above-section {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
 
+    font-size: 1em;
+}
+
+.menu-tab {
+    
+
+    display: grid;
+    grid-template-columns: 2fr  2fr;
+    justify-content: center;
+    gap: 10em;
+}
+
+/*
+.item-1 {
+    display: none;
+}
+.item-2 {
+    display: none;
+}
+*/

@@ -233,13 +233,96 @@ span {
 }
 
 .whats-up-lately-image {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    display: flex;
     justify-content: center;
-    margin-left: 5em;
-    row-gap: 2px;
+    gap: 10px;
+}
+
+.image-card {
+    position: relative;
+    width: 30%;
+    height: 300px;
+
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d8605f;
+    color: white;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.image-card-date p {
+    font-size: 0.7em;
+    margin-top: 2px;
+
+}
+
+.image-card-date h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Image card button footer */
+
+.image-card-bottom {
+    position: relative;
+    bottom: 5em;
+    color: white;
+    background-color: var(--photo-footer-blue);
+    font-family: 'Ubuntu', sans-serif; 
+    height: 20%;
+    margin-top: 42px;
+}
+
+.image-card-bottom {
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.image-card-bottom h3 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.image-card-bottom h3 {
+    margin-top: -26px;
+}
+
+.photography-title {
+   margin-top: -22px;
+   margin-left: 1em;
+}
+
+.sample-text{
+    padding-top: 7px;
+    margin-left: 1em;
+}   
+
+
+.background-transparent-layer {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: rgba(0, 0, 0, 0.237);
+    position: relative;
+    left: 23em;
+    bottom: 3.75em;
    
 }
+
 
 
 
@@ -447,3 +530,14 @@ span {
 }
 */
 
+  /*  fixes from teacher 
+
+  display: block 
+  font-size 2rem !important 
+  color: white; 
+  background-color: #fffff5 
+  border-radius: 50% 
+  color white margin-top 1em 
+  outline 15px solid #ffffff5; 
+
+  */

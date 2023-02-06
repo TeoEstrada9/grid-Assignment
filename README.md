@@ -2,4 +2,4 @@
 ## Group with Khalil 
 ### Mateo top half 
 ### Khalil bottom half 
-### Khalil created css
+### Khalil created css bottom half

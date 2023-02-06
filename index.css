@@ -515,25 +515,288 @@ span {
     display: grid;
     grid-template-columns: auto;
     justify-items: center;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    color: var(--font-Color);
+    text-align: center;
 }
 
-.things-above-section {
-    display: grid;
-    grid-template-columns: auto;
-    justify-items: center;
+/*Things Above section*/
 
+.things-above-section {
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.things-above-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+}
+
+.things-above-heading-sub {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 1em;
 }
 
-.menu-tab {
-    
 
+/*The 2 tab row content*/
+
+.s-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+
+
+/*Left tab css*/
+
+.tab-1-menu {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5em;
+}
+
+.t-menu__1 {
+    overflow: hidden;
+    border: 1px solid rgb(18, 104, 234);
+    background-color: rgb(20, 87, 188);
+    padding: 14px 16px;
+    font-size: 1.5em;
+    max-width: 50em;
+}
+
+.tab-1__cbox {
+       outline: 1px solic #ccc;
+       max-width: 42.1em; 
+       background-color: #eee;
+       padding: 3em;
+}
+
+.tab-1__cbox {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+}
+
+.t-menu__2 {
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(212, 212, 212);
+    padding: 14px 16px;
+    font-size: 1.5em;
+    max-width: 50em;
+    gap: 2em;
+    padding-top: 0.5em;
+}
+
+.t-menu__3 {
+    overflow: hidden;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(212, 212, 212);
+    padding: 14px 16px;
+    font-size: 1.5em;
+    max-width: 50rem;
+    gap: 0.5em;
+}
+
+.tab-1__icon {
+    align-items: end;
+}
+
+/*Right tab css*/
+
+.tab-2-menu {
+    padding: auto;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    max-width: 50em;
+}
+
+.tab-button {
+    flex-flow: row;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    gap: 1em;
+    
+    
+}
+
+.tab-2__cbox {
+
+    outline:  1px solid #dbc7c7;
+    max-width: 50em;
+    background-color: salmon;
+    
+}
+
+.tab-2__list{
+    display: inline;
+    margin: 0;
+}
+
+.tab-icon {
+    display: flex;
+    gap: 0.2em;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+    padding-right: 0.5em;
+}
+
+.tab-content-desc {
+    margin: 0;
+
+}
+
+.menu-tab {    
     display: grid;
     grid-template-columns: 2fr  2fr;
     justify-content: center;
-    gap: 10em;
+    gap: 4em;
 }
 
+/*Image grid*/
+
+.image-container {
+
+    image-resolution: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3em;
+    gap: 2.5em;
+    
+    
+}
+
+.sponsors-images__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 3em;
+}
+
+.net-bean {
+    outline: 1px solid #000000;
+}
+
+.Krita-image {
+    outline: 1px solid #000000;
+}
+
+.blender {
+    outline: 1px solid #000000;
+}
+
+.item-1 {
+    display: none;
+}
+.item-2 {
+    display: none;
+}
+
+.image1 {
+    outline: 1px solid #000000;
+}
+.image2 {
+    outline: 1px solid #000000;
+}
+.image3 {
+    outline: 1px solid #000000;
+}
+.image4 {
+    outline: 1px solid #000000;
+}
+.image5 {
+    outline: 1px solid #000000;
+}
+.image6 {
+    outline: 1px solid #000000;
+}
+
+/*Footer Section*/
+
+.foot_container {
+    justify-content: center;
+    background-color: #254157;
+}
+
+.profile-section {
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.footer-decoration {
+    display: none;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+
+.ruler_pro {
+    max-width: 120rem;
+    border-bottom: 5px solid rgb(47, 225, 97);
+    position: relative;
+    justify-content: center;
+    gap: 2em;
+    padding-bottom: 2em;
+}
+
+.ruler_pro::after {
+    
+  display: block;
+  position: absolute;
+  left: 1rem;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 20px solid red;
+}
+
+.ruler {
+    max-width: 30rem;
+    border-bottom: 5px solid rgb(47, 225, 97);
+    position: relative;
+}
+
+.ruler::after {
+    content: " ";
+  display: block;
+  position: absolute;
+  left: 1rem;
+  width: 0;
+  height: 0;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-top: 1.5em solid rgb(47, 225, 97);
+}
+
+.first-tweet {
+    padding-top: 2em;
+}
 /*
 .item-1 {
     display: none;
@@ -543,14 +806,4 @@ span {
 }
 */
 
-  /*  fixes from teacher 
 
-  display: block 
-  font-size 2rem !important 
-  color: white; 
-  background-color: #fffff5 
-  border-radius: 50% 
-  color white margin-top 1em 
-  outline 15px solid #ffffff5; 
-
-  */

@@ -11,7 +11,7 @@ html, body {
     --navyBlue: #166ba2;
     --MetrolicsHiglightColor: #1eafde;
     --purple: #862d9b;
-    --babyBlue: #19b2de;
+    --photo-footer-blue: #19b2de;
     --googleIcon: #e46145;
     --hoverEffectBlue: #28aed5;
     --instagramColor: #f6679c;
@@ -24,16 +24,19 @@ html, body {
 
 /*Logo*/
 .logo-image {
-    width: 200px;
-    height: 50px;
-    display: flex;
-   
+    width: 12.5em;
+    height: 3.2em;
+    margin-left: 15em;
+
 }
+
 /* Nav bar section */
 .nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: -51px;
+    margin-left: 20em;
     
     
 }
@@ -88,7 +91,7 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 2.5em;
+    margin-top: 38px;
     padding-left: 1em;
 }
 
@@ -96,7 +99,7 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 2.5em;
+    margin-top: 38px;
     padding-left: 1em;
 
 }
@@ -105,10 +108,13 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 2.5em;
+    margin-top: 37px;
     padding-left: 1em;
 }
 
+.background-shape-blog {
+    margin-top: 40px;
+}
 .background-shape-home-blue {
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -117,15 +123,35 @@ html, body {
     padding-left: 1em;
 }
 
+.background-shape-blog  {
+    margin-top: 2.9375em;
+}
+
+.background-shape-portfolio {
+    margin-top: 2.9375em;
+}
 
 
+/*Image background color */ 
 
+.image-background {
+    width: 1500px;
+    height: 550px;
+    background-color: #ebebeb;
+    margin: auto;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+
+   
+}
 
 
 /* main image */
 .main-image {
-    width: 1460px;
-    height: 521px;
+    width: 1280px;
+    height: 550px;  
+    margin-right: 1.5em;  
 }
 
 
@@ -149,7 +175,7 @@ span {
 
 .banner {
     margin-top: -388px;
-    margin-left: 10em;
+    margin-left: 15em;
 }
 
 
@@ -190,10 +216,14 @@ span {
     font-size: 2.5em;
     font-weight: lighter;
     color: var(--font-Color);
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 /*Things we do */ 
+
+.Things-we-do-title {
+    margin-top: -92px;
+}
 
 .what-we-do-text {
     margin-top: 5.5em;
@@ -212,14 +242,99 @@ span {
     margin-top: -24px;
 }
 
-.whats-up-lately-image1 {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: -5px;
+.whats-up-lately-image {
+    display: flex;
     justify-content: center;
-    margin-left: 5em;
+    gap: 10px;
+}
+
+.image-card {
+    position: relative;
+    width: 30%;
+    height: 300px;
+
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d8605f;
+    color: white;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.image-card-date p {
+    font-size: 0.7em;
+    margin-top: 2px;
+
+}
+
+.image-card-date h3 {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Image card button footer */
+
+.image-card-bottom {
+    position: relative;
+    bottom: 5em;
+    color: white;
+    background-color: var(--photo-footer-blue);
+    font-family: 'Ubuntu', sans-serif; 
+    height: 20%;
+    margin-top: 42px;
+}
+
+.image-card-bottom {
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.image-card-bottom h3 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.image-card-bottom h3 {
+    margin-top: -26px;
+}
+
+.photography-title {
+   margin-top: -22px;
+   margin-left: 1em;
+}
+
+.sample-text{
+    padding-top: 7px;
+    margin-left: 1em;
+}   
+
+
+.background-transparent-layer {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: rgba(0, 0, 0, 0.237);
+    position: relative;
+    left: 23em;
+    bottom: 3.75em;
    
 }
+
+
+
 
 .what-we-do-icon {
     display: grid;
@@ -309,19 +424,89 @@ span {
     color: var(--font-Color);
     text-align: center;
     margin-top: -10;
+    margin-bottom: 3em;
+    margin-top: -17px;
 
 }
 
 .sample-post-message {
     display: flex;
     margin-top: -105px;
+    color: white;
 }
+
+.topic-message {
+    color: white;
+}
+
+            
 
 .divider-image {
    width: 89%;
    margin-left: 4em;
    margin-top: 2em;
 }
+
+.banner {
+    z-index: 2;
+    position: relative;
+    margin-top: -27em;
+}
+
+.metro-banner {
+    background-color: #eff5fc; 
+    width: 190px;
+    height: 50px;
+    border-left: 7px solid #166ba2;
+}
+.metro-style-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+.retina-banner {
+    background-color: #eff5fc; 
+    width: 210px;
+    height: 50px;
+    border-left: 7px solid #df6260;
+    margin-top: -20px;
+   
+    
+}
+.retina-ready-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+
+.responsive-banner {
+    background-color: #eff5fc; 
+    width: 270px;
+    height: 50px;
+    border-left: 7px solid #fcbb00;
+    margin-top: -20px; 
+}
+
+.responsive-design-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+
+.image--footer {
+    background-color: #19b2de;
+    width: 50px;
+    height: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+
+
+
+
 
 
 /* Khalil's Css */
@@ -621,24 +806,4 @@ span {
 }
 */
 
-/*
-ruler sample
-<div class="container"> the ruler effect</div>
-5:36
-.container {
-  max-width: 30rem;
-  (outline: 1px solid #ccc;)
-  border-bottom: 2px solid red;
-  position: relative;
-}
-.container::after {
-  content: " ";
-  display: block;
-  position: absolute;
-  left: 1rem;
-  width: 0;
-  height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 8px solid red;
-*/
+

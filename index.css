@@ -277,7 +277,7 @@ span {
 
 .image-card-date p {
     font-size: 0.7em;
-    margin-top: 2px;
+    margin-top: 0.125em;
 
 }
 
@@ -672,12 +672,9 @@ span {
 
 .image-container {
 
-    image-resolution: 300px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 3em;
-    gap: 2.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    margin-left: 6em;
     
     
 }
@@ -884,6 +881,16 @@ span {
     .divider-image {
         margin-left: 49em;
     }
+    .image-container {
+        margin-left: 26em;
+    }
+    .latest-project-text {
+        margin-left: 27em;
+        width: 15em;
+    }
+    .clients-text {
+        margin-left: 32em;
+    }
 
 
 }
@@ -1005,6 +1012,7 @@ span {
         position: relative;
         top: 140px;
     }
+  
 }
 
 

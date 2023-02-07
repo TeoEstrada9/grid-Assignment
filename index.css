@@ -35,7 +35,7 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: -51px;
+    margin-top: -3.1875em;
     margin-left: 20em;
     
     
@@ -91,7 +91,7 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 38px;
+    margin-top: 2.375em;
     padding-left: 1em;
 }
 
@@ -99,7 +99,7 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 38px;
+    margin-top: 2.375em;
     padding-left: 1em;
 
 }
@@ -108,12 +108,12 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 37px;
+    margin-top: 2.3125em;
     padding-left: 1em;
 }
 
 .background-shape-blog {
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 .background-shape-home-blue {
     color: white;
@@ -174,7 +174,7 @@ span {
 
 
 .banner {
-    margin-top: -388px;
+    margin-top: -24.25em;
     margin-left: 15em;
 }
 
@@ -208,7 +208,7 @@ span {
     font-size: 2.5em;
     font-weight: lighter;
     color: var(--font-Color);
-    padding-top: 5px;
+    padding-top: 0.3125em
 }
 .about-website-bottomhalf {
     text-align: center;
@@ -222,7 +222,7 @@ span {
 /*Things we do */ 
 
 .Things-we-do-title {
-    margin-top: -92px;
+    margin-top: -5.75em;
 }
 
 .what-we-do-text {
@@ -245,7 +245,7 @@ span {
 .whats-up-lately-image {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625em;
 }
 
 .image-card {
@@ -495,7 +495,7 @@ span {
 
 .image--footer {
     background-color: #19b2de;
-    width: 50px;
+    width: 3.125em;
     height: 20px;
     z-index: 2;
     position: relative;
@@ -805,5 +805,210 @@ span {
     display: none;
 }
 */
+
+
+
+/* Media Queries for responsive design */ 
+
+
+/* Medium Only */
+
+@media screen and (min-width: 40em) and (max-width: 64em) {
+    .nav-bar {
+        margin-left: 40em;
+        width: 778px;
+    }
+    .image-background {
+        position: relative;
+        left: 19em;
+    }
+    .banner {
+        margin-left: 33em;
+    }
+    .about-website {
+        margin-left: 16.5em;
+        width: 672px;
+    }
+    .about-website-bottomhalf {
+        margin-left: 15em;
+        width: 85em;
+        width: 21em;
+    }
+    .what-we-do-text {
+        margin-left: 24em;
+        width: 500px;
+    }
+    .what-we-do-icon {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        position: relative !important;
+        left: 39em !important;
+    }
+    .ask-what-we-do-text {
+        margin-left: 80em;
+        width: 21em;
+    }
+    .whats-up-lately-text {
+        margin-left: 32em;
+        width: 500px;
+    }
+    .latest-work-text {
+        margin-left: 96em;
+        width: 500px;
+    }
+    .web-design-text {
+        margin-right: 4em;
+    }
+    .web-dev-text {
+        margin-right: 4em;
+    }
+    .photography-text {
+        margin-right: 4em;
+    }
+    .web-solutions-text {
+        margin-right: 3em;
+    }
+    .whats-up-lately-image {
+        margin-left: -36em;
+        position: relative;
+        left: 86em;
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+    }
+    .fa-solid fa-circle-chevron-right {
+        color: white;
+        font-size: 2.5em;
+        margin-left: 24em;
+        margin-top: -15px;
+    }
+    .divider-image {
+        margin-left: 49em;
+    }
+
+
+}
+
+/* Small only */ 
+
+@media screen and (max-width: 40em) {
+    .image-background, .nav-bar {
+        display: none;
+    }
+    .logo-image {
+        padding-top: 2.5em;
+        margin-left: 14.5em;
+    }
+  
+    .about-website {
+        width: 394px;
+        margin-left: 6em;
+        position: relative;
+        bottom: 14em;
+    }
+    .about-website-bottomhalf {
+        width: 550px;
+        position: relative;
+        bottom: 545px;
+        margin-left: 4em;
+    }
+    .what-we-do-icon {
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+    }
+    .logo-image {
+        padding-top: 2.5em;
+    }
+    .what-we-do-text {
+        margin-left: 9em;
+        width: 291px;
+        position: relative;
+        text-align: center;
+        bottom: 17em;
+    }
+    .ask-what-we-do-text {
+        margin-left: 17em;
+        width: 500px;
+        position: relative;
+        bottom: 532px;
+    }
+    .what-we-do-icon {
+        margin-left: 17em;
+        width: 500px;
+        margin-top: -509px;
+    }
+    .fa-regular fa-lightbulb {
+        color: #ffb901;
+        font-size: 35px;
+        border: 1px solid #ffb901;
+        padding: 20px 20px;
+        text-align: center;
+        margin-left: -99px;
+        position: relative;
+        top: 140px;
+    }
+    .web-solutions-text {
+        margin-right: 30em;
+    }
+    .photography-text {
+        margin-right: 31em;
+    }
+    .web-dev-text {
+        margin-right: 29em;
+    }
+    .web-design-text {
+        margin-right: 32em;
+    }
+    .whats-up-lately-text {
+        margin-left: 7em;
+        width: 500px;
+    }
+    .latest-work-text {
+        margin-left: 34em;
+        width: 300px;
+    }
+    .whats-up-lately-image {
+        display: grid;
+        grid-template-columns: repeat;
+        grid-template-columns: repeat(1, 3fr);
+        margin-left: 28em;
+        margin-top: 2em;
+    }
+    .image-carousel1 {
+        width: 388px;
+        height: 278px;
+    }
+    .whats-up-lately-image {
+        margin-left: -36em;
+        position: relative;
+        left: 53em;
+        display: grid;
+        grid-template-columns: repeat(1,4fr);
+    }
+    .divider-image {
+        margin-left: 15em;
+    }
+    .background-transparent-layer {
+        width: 2.5em;
+        height: 2.5em;
+        background-color: rgba(0, 0, 0, 0.237);
+        position: relative;
+        left: 15em;
+        bottom: 3.75em;
+    }
+    .fa-regular fa-lightbulb {
+        color: #ffb901;
+        font-size: 50px;
+        border: 1px solid #ffb901;
+        padding: 20px 20px;
+        text-align: center;
+        margin-left: -2.3em;
+        position: relative;
+        top: 140px;
+    }
+}
+
+
+
+
 
 

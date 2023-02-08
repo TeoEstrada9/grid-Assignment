@@ -11,7 +11,7 @@ html, body {
     --navyBlue: #166ba2;
     --MetrolicsHiglightColor: #1eafde;
     --purple: #862d9b;
-    --babyBlue: #19b2de;
+    --photo-footer-blue: #19b2de;
     --googleIcon: #e46145;
     --hoverEffectBlue: #28aed5;
     --instagramColor: #f6679c;
@@ -24,16 +24,19 @@ html, body {
 
 /*Logo*/
 .logo-image {
-    width: 200px;
-    height: 50px;
-    display: flex;
-   
+    width: 12.5em;
+    height: 3.2em;
+    margin-left: 15em;
+
 }
+
 /* Nav bar section */
 .nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: -3.1875em;
+    margin-left: 20em;
     
     
 }
@@ -88,7 +91,7 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 2.5em;
+    margin-top: 2.375em;
     padding-left: 1em;
 }
 
@@ -96,7 +99,7 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 2.5em;
+    margin-top: 2.375em;
     padding-left: 1em;
 
 }
@@ -105,10 +108,13 @@ html, body {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: regular;
-    margin-top: 2.5em;
+    margin-top: 2.3125em;
     padding-left: 1em;
 }
 
+.background-shape-blog {
+    margin-top: 2.5em;
+}
 .background-shape-home-blue {
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -117,15 +123,35 @@ html, body {
     padding-left: 1em;
 }
 
+.background-shape-blog  {
+    margin-top: 2.9375em;
+}
+
+.background-shape-portfolio {
+    margin-top: 2.9375em;
+}
 
 
+/*Image background color */ 
 
+.image-background {
+    width: 1500px;
+    height: 550px;
+    background-color: #ebebeb;
+    margin: auto;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+
+   
+}
 
 
 /* main image */
 .main-image {
-    width: 1460px;
-    height: 521px;
+    width: 1280px;
+    height: 550px;  
+    margin-right: 1.5em;  
 }
 
 
@@ -148,8 +174,8 @@ span {
 
 
 .banner {
-    margin-top: -388px;
-    margin-left: 10em;
+    margin-top: -24.25em;
+    margin-left: 15em;
 }
 
 
@@ -182,7 +208,7 @@ span {
     font-size: 2.5em;
     font-weight: lighter;
     color: var(--font-Color);
-    padding-top: 5px;
+    padding-top: 0.3125em
 }
 .about-website-bottomhalf {
     text-align: center;
@@ -190,10 +216,14 @@ span {
     font-size: 2.5em;
     font-weight: lighter;
     color: var(--font-Color);
-    margin-top: -30px;
+    margin-top: -50px;
 }
 
 /*Things we do */ 
+
+.Things-we-do-title {
+    margin-top: -5.75em;
+}
 
 .what-we-do-text {
     margin-top: 5.5em;
@@ -212,10 +242,32 @@ span {
     margin-top: -24px;
 }
 
-.whats-up-lately-image1 {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: -5px;
+.whats-up-lately-image {
+    display: flex;
+    justify-content: center;
+    gap: 0.625em;
+}
+
+.image-card {
+    position: relative;
+    width: 30%;
+    height: 300px;
+
+}
+
+.image-card img {
+    width: 100%;
+}
+
+.image-card-date {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #d8605f;
+    color: white;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 40px;
@@ -225,7 +277,7 @@ span {
 
 .image-card-date p {
     font-size: 0.7em;
-    margin-top: 0.125em;
+    margin-top: 2px;
 
 }
 
@@ -280,6 +332,9 @@ span {
     bottom: 3.75em;
    
 }
+
+
+
 
 .what-we-do-icon {
     display: grid;
@@ -369,19 +424,89 @@ span {
     color: var(--font-Color);
     text-align: center;
     margin-top: -10;
+    margin-bottom: 3em;
+    margin-top: -17px;
 
 }
 
 .sample-post-message {
     display: flex;
     margin-top: -105px;
+    color: white;
 }
+
+.topic-message {
+    color: white;
+}
+
+            
 
 .divider-image {
    width: 89%;
    margin-left: 4em;
    margin-top: 2em;
 }
+
+.banner {
+    z-index: 2;
+    position: relative;
+    margin-top: -27em;
+}
+
+.metro-banner {
+    background-color: #eff5fc; 
+    width: 190px;
+    height: 50px;
+    border-left: 7px solid #166ba2;
+}
+.metro-style-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+.retina-banner {
+    background-color: #eff5fc; 
+    width: 210px;
+    height: 50px;
+    border-left: 7px solid #df6260;
+    margin-top: -20px;
+   
+    
+}
+.retina-ready-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+
+.responsive-banner {
+    background-color: #eff5fc; 
+    width: 270px;
+    height: 50px;
+    border-left: 7px solid #fcbb00;
+    margin-top: -20px; 
+}
+
+.responsive-design-text {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 1.3em;
+}
+
+.image--footer {
+    background-color: #19b2de;
+    width: 3.125em;
+    height: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+
+
+
+
+
+
 
 
 /* Khalil's Css */
@@ -536,15 +661,23 @@ span {
 
 }
 
-
+.menu-tab {    
+    display: grid;
+    grid-template-columns: 2fr  2fr;
+    justify-content: center;
+    gap: 4em;
+}
 
 /*Image grid*/
 
 .image-container {
 
-    display: grid;
-    grid-template-columns: repeat(3, 4fr);
-    margin-left: 6em;
+    image-resolution: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3em;
+    gap: 2.5em;
     
     
 }
@@ -751,16 +884,6 @@ span {
     .divider-image {
         margin-left: 49em;
     }
-    .image-container {
-        margin-left: 26em;
-    }
-    .latest-project-text {
-        margin-left: 27em;
-        width: 15em;
-    }
-    .clients-text {
-        margin-left: 32em;
-    }
 
 
 }
@@ -882,7 +1005,6 @@ span {
         position: relative;
         top: 140px;
     }
-  
 }
 
 
